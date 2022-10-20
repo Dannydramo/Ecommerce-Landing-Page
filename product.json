@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "image": "./images/add1.png",
+            "price": 70.19
+        },
+        {
+            "id": 2,
+            "image": "./images/add2.png",
+            "price": 50.07
+        },
+        {
+            "id": 3,
+            "image": "./images/add3.png",
+            "price": 40.17
+        },
+        {
+            "id": 4,
+            "image": "./images/add5.png",
+            "price": 49.15
+        },
+        {
+            "id": 5,
+            "image": "./images/add4.png",
+            "price": 35.21
+        },
+        {
+            "id": 6,
+            "image": "./images/add6.png",
+            "price": 80.29
+        }
+    ]
+}
