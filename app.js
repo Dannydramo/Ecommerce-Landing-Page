@@ -46,8 +46,8 @@ class Product {
             let product = data.items
 
             product = product.map(item => {
-                const { id, image, price, title } = item
-                return { id, image, price, title }
+                const { id, image, price, desc } = item
+                return { id, image, price, desc }
             })
             return product
 
@@ -66,6 +66,7 @@ class Display {
                     <img src=${products.image} alt="">
                     <div class="collection_overlay">
                         <div class="price">
+                            <h4 class = "nike_shoe"> ${products.desc} </h4>
                             <h3>$${products.price}</h3>
                             <p>Sizes: 41 - 45</p>
                         </div>
@@ -125,7 +126,7 @@ class Display {
        
         <img src=${item.image} class="cart-img">
         <div class="cart-desc">
-            <h3>Sneakers</h3>
+            <h3>${item.desc}</h3>
             <p>$${item.price}</p>
             <img src="images/icon-delete.svg" alt="" data-id=${item.id} class="remove_single_item">
         </div>

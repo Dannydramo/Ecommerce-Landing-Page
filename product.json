@@ -3,32 +3,38 @@
         {
             "id": 1,
             "image": "./images/add1.png",
-            "price": 70.19
+            "price": 70.19,
+            "desc": "NIKE SHOE"
         },
         {
             "id": 2,
             "image": "./images/add2.png",
-            "price": 50.07
+            "price": 50.07,
+            "desc": "NIKE SHOE"
         },
         {
             "id": 3,
             "image": "./images/add3.png",
-            "price": 40.17
+            "price": 40.17,
+            "desc": "NIKE SHOE"
         },
         {
             "id": 4,
             "image": "./images/add5.png",
-            "price": 49.15
+            "price": 49.15,
+            "desc": "NIKE SHOE"
         },
         {
             "id": 5,
             "image": "./images/add4.png",
-            "price": 35.21
+            "price": 35.21,
+            "desc": "NIKE SHOE"
         },
         {
             "id": 6,
             "image": "./images/add6.png",
-            "price": 80.29
+            "price": 80.29,
+            "desc": "NIKE SHOE"
         }
     ]
 }

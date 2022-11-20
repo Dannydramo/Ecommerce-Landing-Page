@@ -243,6 +243,10 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.nike_shoe{
+    color: #FD5545;
+    margin-bottom: .5em;
+}
 
 .add-cart {
     display: flex;
@@ -344,11 +348,12 @@ nav {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
+    margin-top: -3em;
 }
 
 .cart-img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 85%;
+    max-height: 85%;
     margin-left: -1em;
 }
 
@@ -358,7 +363,7 @@ nav {
 
 .cart-desc {
     margin-top: 2em;
-    margin-left: -3em;
+    margin-left: -2em;
 }
 
 .cart-add {
