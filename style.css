@@ -243,7 +243,8 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.nike_shoe{
+
+.nike_shoe {
     color: #FD5545;
     margin-bottom: .5em;
 }
@@ -289,14 +290,9 @@ nav {
 }
 
 .client1 {
-    background-image: url(images/Rectangle\ 45.png);
-    background-repeat: no-repeat;
-    height: 301px;
-    width: 383px;
     font-size: 1.2rem;
     padding: 1em;
     margin: 1em 0;
-    position: relative;
 }
 
 .client1 p {
@@ -304,10 +300,15 @@ nav {
     margin: 3em auto 0 auto;
 }
 
-.client1 img {
-    position: absolute;
-    bottom: 2em;
-    right: 2em;
+.testimonial_name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.testimonial_name img {
+    width: 60px;
 }
 
 /* End Of What our Client Said */
@@ -662,12 +663,33 @@ nav {
     .client1 {
         font-size: 1rem;
         max-height: 100%;
-        max-width: 90%;
+        max-width: 100%;
         margin-left: -.5em;
+    }
+
+    .client1 p {
+        width: 100%;
+    }
+
+    .testimonial_name {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
     }
 
     /* End Of What our Client Said */
 
+    /*  */
+    .cart-img {
+        max-width: 75%;
+        max-height: 75%;
+        margin-left: -1em;
+    }
+
+    .cart-desc h3 {
+        font-size: 1rem;
+    }
 
     /* Footer */
     .footer {
