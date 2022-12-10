@@ -673,9 +673,21 @@ nav {
 
   /*  */
   .cart-img {
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 85%;
+    max-height: 85%;
     margin-left: -1em;
+  }
+
+  .add-cart{
+    font-size: 1rem;
+  }
+
+  .your-cart{
+    font-size: 1rem;
+  }
+
+  .clear_cart{
+    font-size: 1rem;
   }
 
   .cart-desc h3 {
