@@ -88,10 +88,12 @@ class Display {
       if (inCart) {
         button.innerText = "In Cart";
         button.disabled = true;
+        clear_cart.textContent = "CLEAR CART";
       } else {
         button.addEventListener("click", (e) => {
           button.innerHTML = "In Cart";
           button.disabled = true;
+          clear_cart.textContent = "CLEAR CART";
 
           let cartItem = { ...Storage.getProduts(id), amount: 1 };
 
@@ -154,6 +156,9 @@ class Display {
         let id = removeItems.dataset.id;
         displayCartItem.removeChild(removeItems.parentElement.parentElement);
         this.removeItem(id);
+        if (displayCartItem.children.length === 0) {
+          clear_cart.textContent = "ADD CART";
+        }
       } else if (e.target.classList.contains("icon-up")) {
         let increaseItems = e.target;
         console.log(increaseItems);
@@ -188,6 +193,7 @@ class Display {
     console.log(displayCartItem.children);
     while (displayCartItem.children.length > 0) {
       console.log("cleared");
+      clear_cart.textContent = "ADD CART";
       displayCartItem.removeChild(displayCartItem.children[0]);
     }
   }
